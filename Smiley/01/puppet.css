@@ -1,0 +1,11 @@
+/* Tag Styling */
+html {
+  background-color:blue; /* Give our puppet a Green Screen */
+  overflow:hidden; /* We don't want scroll bars */
+}
+
+img { /* By default, Images won't overlap */
+  position:absolute; /* Explicitly position AND EVEN overlap */
+  left:0; /* Sets image position to top left corner */
+  top:0;
+}
